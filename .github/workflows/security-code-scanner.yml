@@ -15,17 +15,6 @@ jobs:
       contents: read
       security-events: write
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Set up JDK 21
-        uses: actions/setup-java@v4
-        with:
-          java-version: '21'
-          distribution: 'temurin'
-
-      - name: Build Java coordinator
-        run: ./gradlew :coordinator:app:build
-
       - name: MetaMask Security Code Scanner
         uses: MetaMask/action-security-code-scanner@mo-multilang-support
         with:
