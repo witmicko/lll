@@ -15,6 +15,9 @@ jobs:
       contents: read
       security-events: write
     steps:
+      - name: Build Java coordinator
+        run: ./gradlew :coordinator:app:build
+
       - name: MetaMask Security Code Scanner
         uses: MetaMask/action-security-code-scanner@mo-multilang-support
         with:
