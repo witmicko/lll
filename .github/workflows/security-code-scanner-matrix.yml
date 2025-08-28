@@ -19,14 +19,8 @@ jobs:
       matrix:
         include:
           - language: javascript-typescript
-            build-mode: none
-            build-command: ""
           - language: typescript
-            build-mode: none
-            build-command: ""
           - language: go
-            build-mode: autobuild
-            build-command: ""
           - language: java-kotlin
             build-mode: manual
             build-command: "./gradlew :coordinator:app:build"
