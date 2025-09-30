@@ -1,6 +1,6 @@
 # Example: How to use the security scanner from a consumer repository
 
-name: 'Example Consumer Usage'
+name: 'aa Monorepo Code Scanner'
 
 on:
   push:
