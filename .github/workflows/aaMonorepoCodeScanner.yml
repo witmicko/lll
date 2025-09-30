@@ -16,15 +16,15 @@ jobs:
       repo: ${{  github.repository }}
       # languages_config: '' # Leave empty for auto-detection with repo defaults
       # Example with custom Java build:
-      # languages_config: |
-      #   [
-      #     {
-      #       "language": "java",
-      #       "build_mode": "manual",
-      #       "build_command": "./gradlew :coordinator:app:build",
-      #       "environment": "jdk-21"
-      #     }
-      #   ]
+      languages_config: |
+        [
+          {
+            "language": "java",
+            "build_mode": "manual",
+            "build_command": "./gradlew :coordinator:app:build",
+            "environment": "jdk-21"
+          }
+        ]
       paths_ignored: |
         .storybook/
         **/__snapshots__/
