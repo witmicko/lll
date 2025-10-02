@@ -27,7 +27,7 @@ jobs:
           }
         ]
       paths_ignored: |
-        **.*.h,
+        **/*.h,
         .storybook/
         **/__snapshots__/
         **/*.snap
