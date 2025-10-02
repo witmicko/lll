@@ -16,20 +16,20 @@ jobs:
       repo: ${{  github.repository }}
       # languages_config: '' # Leave empty for auto-detection with repo defaults
       # Example with custom Java build:
-      languages_config: |
-        [
-          {
-            "language": "java-kotlin",
-            "build_mode": "manual",
-            "build_command": "./gradlew :coordinator:app:build",
-            "version": "21",
-            "distribution": "temurin"
-          },
-          {
-            "language": "cpp",
-            "ignore": true
-          }
-        ]
+      # languages_config: |
+      #   [
+      #     {
+      #       "language": "java-kotlin",
+      #       "build_mode": "manual",
+      #       "build_command": "./gradlew :coordinator:app:build",
+      #       "version": "21",
+      #       "distribution": "temurin"
+      #     },
+      #     {
+      #       "language": "cpp",
+      #       "ignore": true
+      #     }
+      #   ]
       paths_ignored: |
         
         .storybook/
