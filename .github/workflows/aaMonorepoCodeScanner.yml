@@ -13,7 +13,6 @@ jobs:
   security-scan:
     uses: MetaMask/security-codescanner-monorepo/.github/workflows/security-scan.yml@monorepoed
     with:
-      ref: monorepoed
       repo: ${{  github.repository }}
       # languages_config: '' # Leave empty for auto-detection with repo defaults
       # Example with custom Java build:
