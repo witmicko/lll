@@ -11,7 +11,7 @@ on:
 
 jobs:
   security-scan:
-    uses: MetaMask/experimental-security-codescanner-monorepo/.github/workflows/security-scan.yml@monorepo
+    uses: witmicko/security-codescanner-monorepo/.github/workflows/security-scan.yml@monorepo
     with:
       repo: ${{  github.repository }}
       # languages_config: '' # Leave empty for auto-detection with repo defaults
