@@ -11,10 +11,10 @@ on:
 
 jobs:
   security-scan:
-    uses: MetaMask/experimental-security-codescanner-monorepo/.github/workflows/security-scan.yml@main
+    uses: MetaMask/action-security-code-scanner/.github/workflows/security-scan.yml@v2
     with:
       repo: ${{  github.repository }}
-      # scanner_ref: 'monorepo'
+      scanner_ref: 'v2'
       # languages_config: '' # Leave empty for auto-detection with repo defaults
       # Example with custom Java build:
       # languages_config: |
