@@ -3,9 +3,6 @@
 name: 'aa Monorepo Code Scanner main'
 
 on:
-  push:
-    branches: [main]
-  pull_request:
   workflow_dispatch:
 
 
