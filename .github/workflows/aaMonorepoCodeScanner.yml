@@ -5,7 +5,6 @@ name: 'aa Monorepo Code Scanner'
 on:
   workflow_dispatch:
 
-
 jobs:
   security-scan:
     uses: MetaMask/action-security-code-scanner/.github/workflows/security-scan.yml@mrtenz/remove-scanner-ref
