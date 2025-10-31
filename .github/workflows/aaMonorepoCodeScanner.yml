@@ -11,10 +11,10 @@ on:
 
 jobs:
   security-scan:
-    uses: MetaMask/action-security-code-scanner/.github/workflows/security-scan.yml@v2
+    uses: MetaMask/action-security-code-scanner/.github/workflows/security-scan.yml@mrtenz/remove-scanner-ref
     with:
       repo: ${{  github.repository }}
-      scanner_ref: 'v2'
+      scanner-ref: 'mrtenz/remove-scanner-ref'
       # languages_config: '' # Leave empty for auto-detection with repo defaults
       # Example with custom Java build:
       # languages_config: |
@@ -31,7 +31,7 @@ jobs:
       #       "ignore": true
       #     }
       #   ]
-      paths_ignored: |
+      paths-ignored: |
         
         .storybook/
         **/__snapshots__/
@@ -46,7 +46,7 @@ jobs:
         node_modules
         dist
         build
-      rules_excluded: |
+      rules-excluded: |
         rule1
         rule2
       # project_metrics_token: ${{ secrets.SECURITY_SCAN_METRICS_TOKEN }}
