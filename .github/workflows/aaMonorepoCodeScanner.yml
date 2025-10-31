@@ -7,10 +7,10 @@ on:
 
 jobs:
   security-scan:
-    uses: MetaMask/action-security-code-scanner/.github/workflows/security-scan.yml@mrtenz/remove-scanner-ref
+    uses: MetaMask/action-security-code-scanner/.github/workflows/security-scan.yml
     with:
       repo: ${{  github.repository }}
-      scanner-ref: 'mrtenz/remove-scanner-ref'
+      scanner-ref: 'v2'
       # languages_config: '' # Leave empty for auto-detection with repo defaults
       # Example with custom Java build:
       # languages_config: |
