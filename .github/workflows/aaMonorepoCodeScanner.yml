@@ -10,7 +10,7 @@ jobs:
     uses: MetaMask/action-security-code-scanner/.github/workflows/security-scan.yml@v2
     with:
       repo: ${{  github.repository }}
-      scanner-ref: 'v2'
+      scanner-ref: 'add-actions-to-scan'
       # languages_config: '' # Leave empty for auto-detection with repo defaults
       # Example with custom Java build:
       # languages_config: |
