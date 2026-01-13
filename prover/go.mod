@@ -5,11 +5,11 @@ go 1.23.0
 toolchain go1.23.4
 
 require (
-	github.com/bits-and-blooms/bitset v1.14.3
+	github.com/bits-and-blooms/bitset v1.20.0
 	github.com/consensys/bavard v0.1.31-0.20250406004941-2db259e4b582
 	github.com/consensys/compress v0.2.5
 	github.com/consensys/gnark v0.11.1-0.20250107100237-2cb190338a01
-	github.com/consensys/gnark-crypto v0.14.1-0.20250515163241-5b554443cce2
+	github.com/consensys/gnark-crypto v0.18.1
 	github.com/consensys/go-corset v1.0.7
 	github.com/crate-crypto/go-kzg-4844 v1.1.0
 	github.com/dlclark/regexp2 v1.11.2
@@ -75,7 +75,7 @@ require (
 	github.com/sourcegraph/conc v0.3.0 // indirect
 	github.com/spf13/afero v1.11.0 // indirect
 	github.com/spf13/cast v1.6.0 // indirect
-	github.com/spf13/pflag v1.0.5 // indirect
+	github.com/spf13/pflag v1.0.6 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
 	github.com/supranational/blst v0.3.13 // indirect
 	github.com/tklauser/go-sysconf v0.3.14 // indirect
@@ -93,7 +93,6 @@ require (
 require (
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/ethereum/go-ethereum v1.14.13
-	github.com/mmcloughlin/addchain v0.4.0 // indirect
 	github.com/pkg/profile v1.7.0
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	golang.org/x/exp v0.0.0-20240823005443-9b4947da3948
