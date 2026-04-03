@@ -15,7 +15,7 @@ dependencies {
   api("com.ongres.scram:client:2.1") {
     because("Vertx pg client fails without it")
   }
-  api("org.postgresql:postgresql:42.6.0")
+  api("org.postgresql:postgresql:42.6.1")
   api("org.flywaydb:flyway-core:8.4.3")
   api("org.slf4j:slf4j-api:1.7.30") {
     because("Flyway DB and other dependencies use SLF4J")
